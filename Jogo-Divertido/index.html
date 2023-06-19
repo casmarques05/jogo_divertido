@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <table id="tabuleiro">
+        <tr>
+            <td onclick="fazerJogada(0, 0)"></td>
+            <td onclick="fazerJogada(0, 1)"></td>
+            <td onclick="fazerJogada(0, 2)"></td>
+        </tr>
+        <tr>
+            <td onclick="fazerJogada(1, 0)"></td>
+            <td onclick="fazerJogada(1, 1)"></td>
+            <td onclick="fazerJogada(1, 2)"></td>
+        </tr>
+        <tr>
+            <td onclick="fazerJogada(2, 0)"></td>
+            <td onclick="fazerJogada(2, 1)"></td>
+            <td onclick="fazerJogada(2, 2)"></td>
+        </tr>
+    </table>
+    <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+    <script src="script.js"></script>
+</body>
+</html>
